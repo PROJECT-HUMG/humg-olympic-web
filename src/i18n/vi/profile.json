@@ -1,0 +1,43 @@
+{
+    "badges": {
+        "national": "Giải thưởng Quốc Gia",
+        "school": "Giải thưởng Cấp Trường",
+        "nationalShort": "Quốc gia",
+        "schoolShort": "Cấp trường"
+    },
+    "badgeRequests": {
+        "pending": "Chờ duyệt",
+        "approved": "Đã duyệt",
+        "rejected": "Từ chối",
+        "evidenceAlt": "Minh chứng",
+        "typeNational": "Giải Quốc gia",
+        "typeSchool": "Giải Cấp trường",
+        "requestedAt": "Yêu cầu: {{date}}",
+        "reviewedAt": "Duyệt: {{date}}",
+        "rejectReason": "Lý do từ chối:",
+        "myRequests": "Yêu cầu của tôi",
+        "refresh": "Làm mới",
+        "noRequests": "Chưa có yêu cầu nào",
+        "sendFromBadgeTab": "Bạn có thể gửi yêu cầu huy hiệu từ tab \"Kho huy hiệu\""
+    },
+    "examHistory": {
+        "noHistory": "Chưa có lịch sử thi",
+        "noHistoryHint": "Khi tham gia bài thi, kết quả sẽ hiển thị ở đây.",
+        "totalAttempts": "Tổng lượt thi",
+        "completed": "Đã hoàn thành",
+        "passed": "Đã đạt",
+        "avgScore": "Điểm TB",
+        "inProgress": "Đang làm bài",
+        "statusPassed": "Đạt",
+        "statusFailed": "Chưa đạt",
+        "statusPending": "Chờ chấm"
+    },
+    "infoField": {
+        "placeholder": "Nhập {{label}}..."
+    },
+    "skeletons": {
+        "appearance": "Giao diện",
+        "privacy": "Quyền riêng tư",
+        "notifications": "Thông báo"
+    }
+}

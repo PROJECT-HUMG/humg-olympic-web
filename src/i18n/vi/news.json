@@ -1,0 +1,70 @@
+{
+    "toggleFeatured": "Đã cập nhật trạng thái nổi bật.",
+    "removeFeatured": "Đã bỏ trạng thái nổi bật.",
+    "deleteSuccess": "Đã xóa bản tin.",
+    "deleteFailed": "Xóa thất bại.",
+    "loadCategoriesFailed": "Không thể tải danh mục",
+    "titleSummaryRequired": "Vui lòng nhập tiêu đề và tóm tắt.",
+    "categoryRequired": "Vui lòng chọn danh mục.",
+    "updateSuccess": "Đã cập nhật bản tin.",
+    "updateFailed": "Cập nhật thất bại. Vui lòng thử lại.",
+    "createFailed": "Tạo bài viết thất bại.",
+    "actionFailed": "Thao tác thất bại.",
+    "notFound": "Không tìm thấy bản tin này.",
+    "loadFailed": "Hệ thống không thể tải nội dung bản tin này.",
+    "detail": {
+        "goBack": "Quay lại",
+        "featured": "Nổi bật",
+        "setFeatured": "Đặt nổi bật",
+        "edit": "Sửa",
+        "delete": "Xóa",
+        "author": "Tác giả",
+        "views": "{{viewCount}} lượt xem",
+        "copyright": "© Tin tức",
+        "deleteTitle": "Xóa bản tin",
+        "deleteMsg": "Bạn có chắc chắn muốn xóa bản tin \"{{title}}\"? Hành động này không thể hoàn tác.",
+        "deleteConfirm": "Xóa bản tin"
+    },
+    "page": {
+        "allCategories": "Tất cả",
+        "searchPlaceholder": "Tìm kiếm bản tin...",
+        "categoryLabel": "Danh mục",
+        "createNews": "Đăng tin tức"
+    },
+    "hero": {
+        "readFeatured": "Đọc tin nổi bật: {{title}}",
+        "readNow": "Đọc ngay",
+        "views": "{{viewCount}} lượt xem"
+    },
+    "card": {
+        "readArticle": "Đọc bài viết: {{title}}",
+        "publishDate": "Ngày đăng: {{date}}",
+        "viewed": "Đã xem: {{viewCount}}"
+    },
+    "edit": {
+        "title": "Chỉnh sửa bản tin",
+        "titleLabel": "Tiêu đề *",
+        "titlePlaceholder": "Tiêu đề",
+        "summaryLabel": "Tóm tắt *",
+        "summaryPlaceholder": "Tóm tắt",
+        "contentLabel": "Nội dung",
+        "categoryLabel": "Danh mục *",
+        "loadingCategories": "Đang tải...",
+        "featuredLabel": "Tin nổi bật",
+        "coverLabel": "Ảnh bìa (để trống giữ nguyên ảnh hiện tại)",
+        "coverPreview": "Preview bìa",
+        "chooseCover": "Chọn ảnh bìa mới",
+        "coverHint": "Nhấn vào ảnh để đổi ảnh khác hoặc bỏ ảnh bìa.",
+        "cancel": "Hủy",
+        "saving": "Đang lưu...",
+        "save": "Lưu thay đổi"
+    },
+    "renderer": {
+        "downloadFile": "Tải tệp xuống",
+        "noContent": "Chưa có nội dung."
+    },
+    "empty": {
+        "title": "Không tìm thấy bản tin nào",
+        "description": "Vui lòng thử lại với từ khóa hoặc bộ lọc khác."
+    }
+}

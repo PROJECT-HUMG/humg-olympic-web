@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Olympic Trường Đại học Mỏ - Địa chất</title>
+  <meta name="description"
+    content="Nền tảng ôn luyện, thi đấu và chia sẻ tài liệu Olympic dành cho sinh viên và giảng viên Trường Đại học Mỏ - Địa chất." />
+  <meta name="keywords" content="HUMG, Olympic, Toán, Lý, Hoá, Ngoại ngữ, Ôn thi, Đại học Mỏ Địa chất, thi thử, luyện thi, đề thi, ngân hàng đề thi, kiểm tra" />
+  <meta name="theme-color" content="#00387B" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Trường Đại học Mỏ - Địa chất" />
+  <link rel="canonical" href="https://olympic.humg.edu.vn/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://olympic.humg.edu.vn/" />
+  <meta property="og:site_name" content="Olympic Trường Đại học Mỏ - Địa chất" />
+  <meta property="og:title" content="Olympic Trường Đại học Mỏ - Địa chất" />
+  <meta property="og:description"
+    content="Nền tảng ôn luyện, thi đấu và chia sẻ tài liệu Olympic dành cho sinh viên và giảng viên Trường Đại học Mỏ - Địa chất." />
+  <meta property="og:image" content="https://olympic.humg.edu.vn/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="vi_VN" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Olympic Trường Đại học Mỏ - Địa chất" />
+  <meta name="twitter:description"
+    content="Nền tảng ôn luyện, thi đấu và chia sẻ tài liệu Olympic dành cho sinh viên và giảng viên Trường Đại học Mỏ - Địa chất." />
+  <meta name="twitter:image" content="https://olympic.humg.edu.vn/og-image.jpg" />
+
+  <link rel="icon" type="image/png" href="/assets/logo.png" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=%VITE_GA_MEASUREMENT_ID%"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '%VITE_GA_MEASUREMENT_ID%', { send_page_view: false });
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Noto+Serif:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+    as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Noto+Serif:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet">
+  </noscript>
+</head>
+
+<body
+  class="bg-humg-light dark:bg-humg-dark text-slate-800 dark:text-slate-300 antialiased selection:bg-humg-blue selection:text-white">
+  <script>
+    (function () { var t = localStorage.getItem('theme'); if (!t) t = window.matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light'; if (t === 'dark') document.documentElement.classList.add('dark'); else document.documentElement.classList.remove('dark'); })();
+  </script>
+  <div id="root">
+    <!-- Splash Screen — rendered instantly, removed when React mounts -->
+    <div id="splash-screen"
+      style="position:fixed;inset:0;z-index:99999;display:flex;align-items:center;justify-content:center;transition:opacity .4s ease,visibility .4s ease;">
+      <style>
+        #splash-screen {
+          background: #F8FAFC;
+        }
+
+        .dark #splash-screen {
+          background: #0F172A;
+        }
+
+        #splash-logo {
+          width: 80px;
+          height: 80px;
+          animation: splash-pulse 2s ease-in-out infinite;
+          filter: drop-shadow(0 4px 20px rgba(0, 56, 123, .15));
+        }
+
+        .dark #splash-logo {
+          filter: drop-shadow(0 4px 20px rgba(0, 56, 123, .3));
+        }
+
+        @keyframes splash-pulse {
+
+          0%,
+          100% {
+            transform: scale(1);
+            opacity: 1;
+          }
+
+          50% {
+            transform: scale(1.08);
+            opacity: .85;
+          }
+        }
+
+        #splash-subtitle {
+          margin-top: 20px;
+          font-family: 'Be Vietnam Pro', system-ui, sans-serif;
+          font-size: 12px;
+          font-weight: 500;
+          color: #94a3b8;
+          letter-spacing: .3px;
+        }
+
+        .dark #splash-subtitle {
+          color: #64748b;
+        }
+
+        #splash-subtitle .dot {
+          animation: dot-blink 1.4s infinite;
+          opacity: 0;
+        }
+
+        #splash-subtitle .dot:nth-child(2) {
+          animation-delay: .2s;
+        }
+
+        #splash-subtitle .dot:nth-child(3) {
+          animation-delay: .4s;
+        }
+
+        @keyframes dot-blink {
+
+          0%,
+          20% {
+            opacity: 0;
+          }
+
+          40%,
+          100% {
+            opacity: 1;
+          }
+        }
+      </style>
+      <div style="display:flex;flex-direction:column;align-items:center;">
+        <img id="splash-logo" src="/assets/logo.png" alt="HUMG Olympic" />
+        <div id="splash-subtitle">Đang tải<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span>
+        </div>
+      </div>
+    </div>
+    <script>
+      (function () {
+        window.__splashFinish = function () {
+          var splash = document.getElementById('splash-screen');
+          if (splash) {
+            splash.style.opacity = '0';
+            splash.style.visibility = 'hidden';
+            setTimeout(function () { splash.remove(); }, 400);
+          }
+        };
+      })();
+    </script>
+  </div>
+
+  <script type="module" src="/src/index.tsx"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+{
+    "badges": {
+        "national": "National Awards",
+        "school": "School Awards",
+        "nationalShort": "National",
+        "schoolShort": "School"
+    },
+    "badgeRequests": {
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected",
+        "evidenceAlt": "Evidence",
+        "typeNational": "National Award",
+        "typeSchool": "School Award",
+        "requestedAt": "Requested: {{date}}",
+        "reviewedAt": "Reviewed: {{date}}",
+        "rejectReason": "Rejection reason:",
+        "myRequests": "My Requests",
+        "refresh": "Refresh",
+        "noRequests": "No requests yet",
+        "sendFromBadgeTab": "You can submit badge requests from the \"Badge Collection\" tab"
+    },
+    "examHistory": {
+        "noHistory": "No exam history",
+        "noHistoryHint": "Results will appear here when you take exams.",
+        "totalAttempts": "Total Attempts",
+        "completed": "Completed",
+        "passed": "Passed",
+        "avgScore": "Avg Score",
+        "inProgress": "In Progress",
+        "statusPassed": "Passed",
+        "statusFailed": "Failed",
+        "statusPending": "Pending"
+    },
+    "infoField": {
+        "placeholder": "Enter {{label}}..."
+    },
+    "skeletons": {
+        "appearance": "Appearance",
+        "privacy": "Privacy",
+        "notifications": "Notifications"
+    }
+}

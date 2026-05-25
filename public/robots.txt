@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /profile/
+Disallow: /auth/
+Disallow: /notifications/
+Disallow: /forum/
+Disallow: /roadmap/create
+Disallow: /roadmap/edit/
+Disallow: /teams/
+
+Sitemap: https://olympic.humg.edu.vn/sitemap.xml

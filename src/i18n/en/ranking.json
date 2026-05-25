@@ -1,0 +1,17 @@
+{
+    "page": {
+        "title": "Leaderboard",
+        "subtitle": "Honoring students with the most outstanding achievements.",
+        "noData": "No ranking data available",
+        "points": "Points"
+    },
+    "scoring": {
+        "title": "How ranking score is calculated:",
+        "schoolBadge": "School Badge:",
+        "schoolMultiplier": "x1 multiplier",
+        "nationalBadge": "National Badge:",
+        "nationalMultiplier": "x2 multiplier",
+        "examScore": "Competition Score:",
+        "examAccumulate": "Cumulative"
+    }
+}

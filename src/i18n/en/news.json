@@ -1,0 +1,70 @@
+{
+    "toggleFeatured": "Featured status updated.",
+    "removeFeatured": "Featured status removed.",
+    "deleteSuccess": "News article deleted.",
+    "deleteFailed": "Delete failed.",
+    "loadCategoriesFailed": "Failed to load categories",
+    "titleSummaryRequired": "Please enter title and summary.",
+    "categoryRequired": "Please select a category.",
+    "updateSuccess": "News article updated.",
+    "updateFailed": "Update failed. Please try again.",
+    "createFailed": "Failed to create article.",
+    "actionFailed": "Action failed.",
+    "notFound": "News article not found.",
+    "loadFailed": "Unable to load this news article.",
+    "detail": {
+        "goBack": "Go back",
+        "featured": "Featured",
+        "setFeatured": "Set featured",
+        "edit": "Edit",
+        "delete": "Delete",
+        "author": "Author",
+        "views": "{{viewCount}} views",
+        "copyright": "© HUMG University News",
+        "deleteTitle": "Delete article",
+        "deleteMsg": "Are you sure you want to delete \"{{title}}\"? This action cannot be undone.",
+        "deleteConfirm": "Delete article"
+    },
+    "page": {
+        "allCategories": "All",
+        "searchPlaceholder": "Search news...",
+        "categoryLabel": "Categories",
+        "createNews": "Post news"
+    },
+    "hero": {
+        "readFeatured": "Read featured: {{title}}",
+        "readNow": "Read now",
+        "views": "{{viewCount}} views"
+    },
+    "card": {
+        "readArticle": "Read article: {{title}}",
+        "publishDate": "Published: {{date}}",
+        "viewed": "Views: {{viewCount}}"
+    },
+    "edit": {
+        "title": "Edit News Article",
+        "titleLabel": "Title *",
+        "titlePlaceholder": "Title",
+        "summaryLabel": "Summary *",
+        "summaryPlaceholder": "Summary",
+        "contentLabel": "Content",
+        "categoryLabel": "Category *",
+        "loadingCategories": "Loading...",
+        "featuredLabel": "Featured",
+        "coverLabel": "Cover image (leave blank to keep current)",
+        "coverPreview": "Cover preview",
+        "chooseCover": "Choose new cover",
+        "coverHint": "Click image to change or remove cover.",
+        "cancel": "Cancel",
+        "saving": "Saving...",
+        "save": "Save changes"
+    },
+    "renderer": {
+        "downloadFile": "Download file",
+        "noContent": "No content yet."
+    },
+    "empty": {
+        "title": "No news articles found",
+        "description": "Please try different keywords or filters."
+    }
+}

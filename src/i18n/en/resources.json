@@ -1,0 +1,82 @@
+{
+    "page": {
+        "title": "Document Library",
+        "subtitle": "Knowledge repository for HUMG students",
+        "upload": "Upload Document",
+        "searchPlaceholder": "Search documents, exams, textbooks...",
+        "filters": "Filters",
+        "filterButton": "Filter",
+        "loading": "Loading...",
+        "resultCount": "{{count}} results",
+        "resultLabel": "results",
+        "gridView": "Grid View",
+        "listView": "List View",
+        "notFound": "No documents found",
+        "notFoundHint": "Try changing filters or search keywords",
+        "clearFilters": "Clear Filters",
+        "pagination": "Pagination",
+        "previousPage": "Previous Page",
+        "deleteTitle": "Delete Document",
+        "deleteMessage": "Are you sure you want to delete \"{{title}}\"? This action cannot be undone.",
+        "deleteConfirm": "Delete Document",
+        "openingDoc": "Opening document...",
+        "downloading": "Downloading..."
+    },
+    "filters": {
+        "ariaLabel": "Document filters",
+        "totalDocs": "Total Documents",
+        "alwaysUpdated": "Repository is always updated",
+        "categories": "Subject Categories"
+    },
+    "card": {
+        "ariaLabel": "Document: {{title}}",
+        "readMore": "Read More",
+        "noDescription": "No description for this document.",
+        "preview": "Preview",
+        "previewAriaLabel": "Preview document",
+        "download": "Download",
+        "downloadAriaLabel": "Download document",
+        "edit": "Edit",
+        "delete": "Delete"
+    },
+    "listItem": {
+        "ariaLabel": "Document: {{title}}",
+        "noDescription": "No description.",
+        "downloadCount": "{{count}} downloads",
+        "preview": "Preview",
+        "previewAriaLabel": "Preview document",
+        "download": "Download",
+        "downloadAriaLabel": "Download document",
+        "edit": "Edit",
+        "delete": "Delete"
+    },
+    "preview": {
+        "cannotLoad": "Cannot load preview",
+        "fileError": "File may be corrupted or does not exist.",
+        "downloadToView": "Download to view",
+        "previousPage": "Previous page",
+        "zoomOut": "Zoom out",
+        "zoomIn": "Zoom in",
+        "loadingPdf": "Loading PDF...",
+        "unsupportedFormat": "Format not supported for preview",
+        "unsupportedHint": "We don't support displaying this file type directly in the browser yet.",
+        "nextPage": "Next page",
+        "downloadNow": "Download now",
+        "downloadDocument": "Download document",
+        "download": "Download",
+        "closePreview": "Close preview"
+    },
+    "api": {
+        "invalidFormat": "Invalid file format or data.",
+        "uploadFailed": "File upload failed.",
+        "noEditPermission": "You don't have permission to edit this document.",
+        "notFound": "Document not found.",
+        "updateFailed": "Update failed.",
+        "noDeletePermission": "You don't have permission to delete this document.",
+        "deleteFailed": "Delete failed.",
+        "noDownloadPermission": "You don't have permission to download this document.",
+        "notFoundOrDeleted": "Document not found or has been deleted.",
+        "downloadError": "Download error.",
+        "cannotView": "Cannot view document."
+    }
+}

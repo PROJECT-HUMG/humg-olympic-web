@@ -1,0 +1,17 @@
+{
+    "page": {
+        "title": "Bảng Xếp Hạng",
+        "subtitle": "Vinh danh những sinh viên có thành tích xuất sắc nhất.",
+        "noData": "Chưa có dữ liệu xếp hạng",
+        "points": "Điểm"
+    },
+    "scoring": {
+        "title": "Cách tính điểm xếp hạng:",
+        "schoolBadge": "Huy hiệu Trường:",
+        "schoolMultiplier": "x1 hệ số",
+        "nationalBadge": "Huy hiệu QG:",
+        "nationalMultiplier": "x2 hệ số",
+        "examScore": "Điểm thi đấu:",
+        "examAccumulate": "Cộng dồn"
+    }
+}

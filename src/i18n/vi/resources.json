@@ -1,0 +1,82 @@
+{
+    "page": {
+        "title": "Thư viện tài liệu",
+        "subtitle": "Kho tàng tri thức dành cho sinh viên HUMG",
+        "upload": "Tải lên tài liệu",
+        "searchPlaceholder": "Tìm kiếm tài liệu, đề thi, giáo trình...",
+        "filters": "Bộ lọc",
+        "filterButton": "Lọc",
+        "loading": "Đang tải...",
+        "resultCount": "{{count}} kết quả",
+        "resultLabel": "kết quả",
+        "gridView": "Dạng lưới",
+        "listView": "Dạng danh sách",
+        "notFound": "Không tìm thấy tài liệu",
+        "notFoundHint": "Thử thay đổi bộ lọc hoặc tìm kiếm từ khóa khác",
+        "clearFilters": "Xóa bộ lọc",
+        "pagination": "Phân trang",
+        "previousPage": "Trang trước",
+        "deleteTitle": "Xóa tài liệu",
+        "deleteMessage": "Bạn có chắc chắn muốn xóa tài liệu \"{{title}}\" không? Hành động này không thể hoàn tác.",
+        "deleteConfirm": "Xóa tài liệu",
+        "openingDoc": "Đang mở tài liệu...",
+        "downloading": "Đang tải xuống..."
+    },
+    "filters": {
+        "ariaLabel": "Bộ lọc tài liệu",
+        "totalDocs": "Tổng tài liệu",
+        "alwaysUpdated": "Kho tài liệu luôn được cập nhật",
+        "categories": "Danh mục môn học"
+    },
+    "card": {
+        "ariaLabel": "Tài liệu: {{title}}",
+        "readMore": "Xem thêm",
+        "noDescription": "Chưa có mô tả cho tài liệu này.",
+        "preview": "Xem trước",
+        "previewAriaLabel": "Xem trước tài liệu",
+        "download": "Tải xuống",
+        "downloadAriaLabel": "Tải xuống tài liệu",
+        "edit": "Sửa",
+        "delete": "Xóa"
+    },
+    "listItem": {
+        "ariaLabel": "Tài liệu: {{title}}",
+        "noDescription": "Chưa có mô tả.",
+        "downloadCount": "{{count}} lượt tải",
+        "preview": "Xem trước",
+        "previewAriaLabel": "Xem trước tài liệu",
+        "download": "Tải xuống",
+        "downloadAriaLabel": "Tải xuống tài liệu",
+        "edit": "Chỉnh sửa",
+        "delete": "Xóa"
+    },
+    "preview": {
+        "cannotLoad": "Không thể tải bản xem trước",
+        "fileError": "Tệp có thể bị lỗi hoặc không tồn tại.",
+        "downloadToView": "Tải xuống để xem",
+        "previousPage": "Trang trước",
+        "zoomOut": "Thu nhỏ",
+        "zoomIn": "Phóng to",
+        "loadingPdf": "Đang tải PDF...",
+        "unsupportedFormat": "Định dạng không hỗ trợ xem trước",
+        "unsupportedHint": "Chúng tôi chưa hỗ trợ hiển thị trực tiếp loại tệp này trên trình duyệt.",
+        "nextPage": "Trang sau",
+        "downloadNow": "Tải xuống ngay",
+        "downloadDocument": "Tải xuống tài liệu",
+        "download": "Tải xuống",
+        "closePreview": "Đóng xem trước"
+    },
+    "api": {
+        "invalidFormat": "Sai định dạng tệp hoặc dữ liệu không hợp lệ.",
+        "uploadFailed": "Tải tệp thất bại.",
+        "noEditPermission": "Bạn không có quyền chỉnh sửa tài liệu này.",
+        "notFound": "Tài liệu không tồn tại.",
+        "updateFailed": "Cập nhật thất bại.",
+        "noDeletePermission": "Bạn không có quyền xóa tài liệu này.",
+        "deleteFailed": "Xóa thất bại.",
+        "noDownloadPermission": "Bạn không có quyền tải tài liệu này.",
+        "notFoundOrDeleted": "Tài liệu không tồn tại hoặc đã bị xóa.",
+        "downloadError": "Lỗi tải xuống.",
+        "cannotView": "Không thể xem tài liệu."
+    }
+}
