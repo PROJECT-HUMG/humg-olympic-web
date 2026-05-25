@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { LogOut, ChevronDown } from 'lucide-react';
+import { LogOut, ChevronDown, Settings, User as UserIcon } from 'lucide-react';
 import { getUserNameColor } from '@/utils/rankingHelpers';
 import { getAvatarUrl, handleAvatarError } from '@/utils/avatarHelpers';
 import { NavEntry, isNavGroup } from './types/header.types';
@@ -149,6 +149,22 @@ export const MobileMenu = ({
                 {/* ── Actions ── */}
                 {isAuthenticated ? (
                     <div className="flex flex-col gap-2">
+                        <div className="grid grid-cols-2 gap-2">
+                            <Link
+                                to="/profile"
+                                onClick={onClose}
+                                className="flex items-center justify-center gap-2 p-3 rounded-xl bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-200 text-sm font-bold active:bg-slate-100 dark:active:bg-slate-700 transition-colors"
+                            >
+                                <UserIcon size={18} /> {i18n.t('common:nav.profile')}
+                            </Link>
+                            <Link
+                                to="/profile?tab=settings"
+                                onClick={onClose}
+                                className="flex items-center justify-center gap-2 p-3 rounded-xl bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-200 text-sm font-bold active:bg-slate-100 dark:active:bg-slate-700 transition-colors"
+                            >
+                                <Settings size={18} /> {i18n.t('common:nav.settings')}
+                            </Link>
+                        </div>
                         <button onClick={onLogout} className="w-full flex items-center justify-center gap-2 p-3 rounded-xl bg-red-50 dark:bg-red-900/10 text-red-600 dark:text-red-400 text-sm font-bold active:bg-red-100 transition-colors">
                             <LogOut size={20} /> {i18n.t('common:nav.logout')}
                         </button>

@@ -213,15 +213,17 @@ export const Header = () => {
                 </Link>
 
                 {/* ── Desktop Navigation ── */}
-                <DesktopNav
-                    navEntries={navEntries}
-                    isActive={isActive}
-                    isGroupActive={isGroupActive}
-                    openDropdown={openDropdown}
-                    onDropdownEnter={handleDropdownEnter}
-                    onDropdownLeave={handleDropdownLeave}
-                    onPrefetch={handlePrefetch}
-                />
+                {!isAuthenticated && (
+                    <DesktopNav
+                        navEntries={navEntries}
+                        isActive={isActive}
+                        isGroupActive={isGroupActive}
+                        openDropdown={openDropdown}
+                        onDropdownEnter={handleDropdownEnter}
+                        onDropdownLeave={handleDropdownLeave}
+                        onPrefetch={handlePrefetch}
+                    />
+                )}
 
                 {/* ── Right Actions ── */}
                 <div className="flex items-center gap-1.5 md:gap-4">

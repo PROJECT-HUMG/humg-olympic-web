@@ -897,12 +897,12 @@ export const RoadmapEditorPage = () => {
                                                                 : 'border-slate-200 dark:border-slate-700 hover:border-slate-300 focus:border-blue-400 placeholder:text-slate-300'
                                                                 }`}
                                                         />
-                                                        <input
-                                                            type="text"
+                                                        <textarea
                                                             value={stage.description || ''}
                                                             onChange={e => updateStage(cIdx, 'description', e.target.value)}
                                                             placeholder={i18n.t('roadmap:editorDetail.descPlaceholder')}
-                                                            className="w-full text-sm text-slate-500 dark:text-slate-400 bg-transparent border-b border-transparent hover:border-slate-200 dark:hover:border-slate-700 focus:border-blue-400 outline-none pb-0.5 transition-colors placeholder:text-slate-300"
+                                                            rows={2}
+                                                            className="w-full resize-none text-sm text-slate-500 dark:text-slate-400 bg-transparent border-b border-transparent hover:border-slate-200 dark:hover:border-slate-700 focus:border-blue-400 outline-none pb-0.5 transition-colors placeholder:text-slate-300 leading-relaxed"
                                                         />
                                                     </div>
 

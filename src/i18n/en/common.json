@@ -65,7 +65,9 @@
         "dashboard": "Dashboard",
         "mainNavigation": "Navigation",
         "community": "Community",
-        "account": "Account"
+        "account": "Account",
+        "pinSidebar": "Pin sidebar",
+        "unpinSidebar": "Unpin sidebar"
     },
     "breadcrumb": {
         "home": "Home",

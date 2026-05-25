@@ -65,7 +65,9 @@
         "dashboard": "Bảng điều khiển",
         "mainNavigation": "Điều hướng",
         "community": "Cộng đồng",
-        "account": "Tài khoản"
+        "account": "Tài khoản",
+        "pinSidebar": "Ghim thanh bên",
+        "unpinSidebar": "Bỏ ghim thanh bên"
     },
     "breadcrumb": {
         "home": "Trang chủ",

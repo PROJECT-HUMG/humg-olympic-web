@@ -6,6 +6,7 @@ import { showToast } from '@/components/ui/Toast';
 import i18n from '@/i18n';
 import { roadmapRepository } from '@/features/roadmap/api';
 import { ChapterDetailPage, ChapterDetailSkeleton } from '@/features/roadmap/components/ChapterDetailPage';
+import { RoadmapMarkdown } from '@/features/roadmap/components/RoadmapMarkdown';
 import {
     BookOpen,
     ChevronRight, Plus, Edit, Unlock, LockKeyhole, Loader2, AlertTriangle, Trash2,
@@ -233,9 +234,7 @@ const TimelineMilestone = ({ stage, index, isManager, isLast, onToggleLock, lock
                             {stage.title}
                         </h4>
                         {stage.description && (
-                            <p className="text-sm text-slate-500 dark:text-slate-400 line-clamp-2 leading-relaxed">
-                                {stage.description}
-                            </p>
+                            <RoadmapMarkdown content={stage.description} compact />
                         )}
                     </div>
 
@@ -709,7 +708,11 @@ export const RoadmapPage = () => {
                                                     <div className="mb-6 flex items-start justify-between">
                                                         <div>
                                                             <h2 className="text-xl font-black text-slate-900 dark:text-white mb-1.5">{activeRoadmap.name}</h2>
-                                                            <p className="text-sm text-slate-500 dark:text-slate-400">{activeRoadmap.description || i18n.t('roadmap:page.noDescription')}</p>
+                                                            {activeRoadmap.description ? (
+                                                                <RoadmapMarkdown content={activeRoadmap.description} compact className="text-sm" />
+                                                            ) : (
+                                                                <p className="text-sm text-slate-500 dark:text-slate-400">{i18n.t('roadmap:page.noDescription')}</p>
+                                                            )}
                                                         </div>
 
                                                         {/* Mobile manager actions */}

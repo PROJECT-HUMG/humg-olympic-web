@@ -9,6 +9,7 @@ import { useNavigate } from 'react-router-dom';
 import { RoadmapStage, StageResource, ResourceType } from '@/features/roadmap/types/roadmap.types';
 import { ShareButton } from '@/components/ui/ShareButton';
 import i18n from '@/i18n';
+import { RoadmapMarkdown } from './RoadmapMarkdown';
 
 import { useResourcePreview } from '@/hooks/useResourcePreview';
 import { PreviewModal } from '@/features/resources/components/PreviewModal';
@@ -346,9 +347,7 @@ export const ChapterDetailPage = ({
                         </h1>
 
                         {chapter.description && (
-                            <p className="text-slate-500 dark:text-slate-400 text-base leading-relaxed max-w-2xl">
-                                {chapter.description}
-                            </p>
+                            <RoadmapMarkdown content={chapter.description} className="max-w-2xl" />
                         )}
 
                         {/* Stats bar */}

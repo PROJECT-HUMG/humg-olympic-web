@@ -11,7 +11,9 @@ description: Shared layout components (Header, Footer, MainLayout, RootLayout)
 | `Footer` | `src/components/layout/Footer.tsx` | Site footer with links, contact, socials |
 | `MainLayout` | `src/components/layout/MainLayout.tsx` | Main wrapper: Background + Header + Outlet + Footer + AIChatWidget (lazy). Hides chrome on exam-taking pages. |
 | `RootLayout` | `src/components/layout/RootLayout.tsx` | Top-level wrapper with global loading spinner overlay |
-| `AppSidebar` | `src/components/layout/AppSidebar.tsx` | Authenticated desktop sidebar with primary navigation, community links, and account shortcuts |
+| `PublicLayout` | `src/components/layout/PublicLayout.tsx` | Guest/public shell with Background + Header + content + Footer + scroll handling |
+| `ProtectedLayout` | `src/components/layout/ProtectedLayout.tsx` | Authenticated app shell with utility Header + collapsible AppSidebar + content + BottomNav |
+| `AppSidebar` | `src/components/layout/AppSidebar.tsx` | Authenticated desktop sidebar with hover/pin collapse, primary navigation, community links, and account shortcuts |
 
 ## Types
 
